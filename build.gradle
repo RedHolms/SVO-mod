@@ -21,8 +21,8 @@ buildscript {
 apply plugin: 'forge'
 
 version = "1.0"
-group = "dev.redholms.imperrormod"
-archivesBaseName = "special-event-mod"
+group = "dev.redholms.svo"
+archivesBaseName = "svo-mod"
 
 targetCompatibility = sourceCompatibility = JavaVersion.VERSION_1_8
 

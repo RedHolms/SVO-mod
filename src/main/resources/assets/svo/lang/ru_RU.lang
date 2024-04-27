@@ -1,0 +1,13 @@
+commands.generic.color.invalid='%s' неверный цвет
+
+commands.svo.usage=/svo <add|remove|list|give>
+commands.svo.add.usage=/svo add <player>
+commands.svo.add.success=Игрок %s добавлен
+commands.svo.remove.usage=/svo remove <player>
+commands.svo.remove.success=Игрок %s убран
+commands.svo.list.entry= - %s
+commands.svo.give.usage=/svo give <amount>
+commands.svo.give.noPlayer=Игрок %s оффлайн!
+commands.svo.give.noSpace=У игрока %s нет места в эндер-сундуке
+commands.svo.give.success=Готово
+svo.rewardGiven=Получено %d алмазов

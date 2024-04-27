@@ -1,49 +1,13 @@
 commands.generic.color.invalid='%s' is not a valid color
 
-commands.svo.games.usage=/svo.games <save|load|delete|list>
-commands.svo.games.noGame=Game %s doesn't exists
-
-commands.svo.games.save.usage=/svo.games save <name>
-commands.svo.games.save.success=Game %s successfully saved with %d teams and %d points
-
-commands.svo.games.load.usage=/svo.games load <name>
-commands.svo.games.load.success=Game %s successfully loaded with %d teams and %d points
-
-commands.svo.games.delete.usage=/svo.games delete <name>
-commands.svo.games.delete.success=Game %s successfully deleted
-
-commands.svo.games.list.count=Total %d games:
-commands.svo.games.list.entry= - %s
-commands.svo.games.list.noGames=No games
-
-commands.svo.teams.usage=/svo.teams <add|remove|list|color|spawnpoint|join|leave>
-commands.svo.teams.noTeam=Team %s doesn't exists
-commands.svo.teams.alreadyExists=Team %s already exists
-
-commands.svo.teams.add.usage=/svo.teams add <name> [displayName]
-commands.svo.teams.add.success=Team %s (%s) successfully created
-
-commands.svo.teams.remove.usage=/svo.teams remove <name>
-commands.svo.teams.remove.success=Team %s successfully removed
-
-commands.svo.teams.list.count=Total %d teams:
-commands.svo.teams.list.entry= - %s (%s) - %d member(s)
-commands.svo.teams.list.noTeams=No teams
-
-commands.svo.teams.members.usage=/svo.teams members <name>
-commands.svo.teams.members.count=Team %s has %d member(s):
-commands.svo.teams.members.entry= - %s
-commands.svo.teams.members.noMembers=No members
-
-commands.svo.teams.color.usage=/svo.teams color <name> <color>
-commands.svo.teams.color.success=Color for team %s is set to %s
-
-commands.svo.teams.spawnpoint.usage=/svo.teams spawnpoint <team> OR /svo.teams spawnpoint <team> <x> <y> <z>
-commands.svo.teams.spawnpoint.success=Spawnpoint for team %s is set on %d, %d, %d
-
-commands.svo.teams.join.usage=/svo.teams join <team> [player]
-commands.svo.teams.join.success=Player %s has joined to the team %s
-
-commands.svo.teams.leave.usage=/svo.teams leave [player]
-commands.svo.teams.leave.success=Player %s has left for the team %s
-commands.svo.teams.leave.noTeam=Player %s is not on any team
+commands.svo.usage=/svo <add|remove|list|give>
+commands.svo.add.usage=/svo add <player>
+commands.svo.add.success=Player %s added
+commands.svo.remove.usage=/svo remove <player>
+commands.svo.remove.success=Player %s removed
+commands.svo.list.entry= - %s
+commands.svo.give.usage=/svo give <amount>
+commands.svo.give.noPlayer=Player %s offline!
+commands.svo.give.noSpace=Player %s has no space in his ender chest
+commands.svo.give.success=Done
+svo.rewardGiven=Got %d diamonds

@@ -5,6 +5,9 @@ import net.minecraft.command.SyntaxErrorException;
 import net.minecraft.util.IChatComponent;
 
 import java.awt.*;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 public abstract class CommandBase extends net.minecraft.command.CommandBase {
   protected IChatComponent parseChatComponent(ICommandSender sender, String[] args, int index) {
