@@ -1,0 +1,16 @@
+[
+{
+  "modid": "SVO",
+  "name": "SVO mod",
+  "description": "Some useful stuff for SVO in minecraft",
+  "version": "1.0.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [ "RedHolms" ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
